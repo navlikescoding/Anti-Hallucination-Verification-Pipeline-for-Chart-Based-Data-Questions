@@ -1,0 +1,5 @@
+data/ChartQA/
+outputs/logs/*.log
+.ipynb_checkpoints/
+__pycache__/
+.env
