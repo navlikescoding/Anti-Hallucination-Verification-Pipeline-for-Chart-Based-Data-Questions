@@ -1,0 +1,13 @@
+# Python 3.12. Install with:  py -3.12 -m pip install -r requirements.txt
+pandas
+numpy
+rapidfuzz
+matplotlib
+scikit-learn==1.5.2      # newer builds were blocked by Windows Smart App Control on our laptop
+shap
+sentence-transformers    # cosine similarity in Section 3 (downloads all-MiniLM-L6-v2 once)
+ipykernel
+nbformat
+# LLMs are called over HTTP with Python's built-in urllib (no extra client library):
+#   Ollama (local): llama3.2:3b, qwen2.5vl:3b, gemma3:4b
+#   Gemini free tier: gemini-3.5-flash-lite (key in the GEMINI_API_KEY environment variable)
