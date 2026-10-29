@@ -1,0 +1,5 @@
+model,style,n,hallucinated,rate_%
+gemini-flash,sentence,200,3,1.5
+gemini-flash,short,200,6,3.0
+llama3.2-3b,sentence,200,61,30.5
+llama3.2-3b,short,200,118,59.0

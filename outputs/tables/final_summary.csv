@@ -1,0 +1,23 @@
+area,metric,value,note
+1 Oracle,Oracle precision vs human gold (all types),94.5%,1034 of 1094 answered; only gold-matching questions kept
+1 Oracle,Evaluation sample,200 questions,stratified by question type; ChartQA test split
+3 Verification,Hallucination rate BEFORE: Llama 3.2 3B · short,59.0%,200 answers
+3 Verification,Hallucination rate BEFORE: Llama 3.2 3B · sentence,30.5%,200 answers
+3 Verification,Hallucination rate BEFORE: Gemini Flash-Lite · short,3.0%,200 answers
+3 Verification,Hallucination rate BEFORE: Gemini Flash-Lite · sentence,1.5%,200 answers
+3 Verification,Hallucination rate AFTER (all groups),0.0%,verifier misses in audit: 0/60; 95% upper bound 3.7%
+3 Verification,Flagged answers fixed by re-prompting,165 of 188,23 needed the template fallback; the model was given the correct value
+3 Verifier audit,Verifier precision,0.983,human audit of 120 answers (60 flagged + 60 passed)
+3 Verifier audit,Verifier recall,1.000,human audit of 120 answers (60 flagged + 60 passed)
+3 Verifier audit,Verifier F1,0.992,human audit of 120 answers (60 flagged + 60 passed)
+3 Verifier audit,Verifier false positive rate,0.005,human audit of 120 answers (60 flagged + 60 passed)
+3 Verifier audit,Verifier false negative rate,0.000,human audit of 120 answers (60 flagged + 60 passed)
+3b Images (dev),Values read correctly: gemma3-4b,65.3%,vs ChartQA's true tables; parser refined on these charts
+3b Images (dev),Values read correctly: qwen2.5vl-3b,96.6%,vs ChartQA's true tables; parser refined on these charts
+3b Images (dev),Values confirmed by both models that were right,99.3%,285 confirmed values; 2 shared misreads
+3b Images (dev),Wrong answers: vision model alone,12.5%,confidently wrong 12.5%; 40 questions
+3b Images (dev),Wrong answers: with verification layer,5.0%,confidently wrong 2.5%; 40 questions
+4 Classifier (5-fold CV),Baseline (model + style): precision / recall / F1 / ROC-AUC,0.448 / 0.955 / 0.609 / 0.850,no true-answer features; grouped by question (no leakage)
+4 Classifier (5-fold CV),Logistic Regression: precision / recall / F1 / ROC-AUC,0.584 / 0.854 / 0.692 / 0.908,no true-answer features; grouped by question (no leakage)
+4 Classifier (5-fold CV),Random Forest: precision / recall / F1 / ROC-AUC,0.682 / 0.727 / 0.701 / 0.913,no true-answer features; grouped by question (no leakage)
+4 Classifier,Circular model (uses true answer) F1,0.980,sanity check only: shows why true-answer features were excluded

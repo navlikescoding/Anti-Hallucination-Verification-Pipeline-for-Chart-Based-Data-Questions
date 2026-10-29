@@ -1,0 +1,4 @@
+chart_type,Llama 3.2 3B · short,Llama 3.2 3B · sentence,Gemini Flash-Lite · short,Gemini Flash-Lite · sentence,n_questions
+bar,59.8,27.5,3.9,1.0,102
+line,50.0,42.6,2.9,2.9,68
+pie,76.7,13.3,0.0,0.0,30

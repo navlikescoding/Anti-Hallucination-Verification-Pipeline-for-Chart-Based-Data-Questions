@@ -1,0 +1,6 @@
+model,gemini-flash,gemini-flash,llama3.2-3b,llama3.2-3b,n_questions
+style,sentence,short,sentence,short,
+chart_type,,,,,
+bar,1.0,3.9,27.5,59.8,102
+line,2.9,2.9,42.6,50.0,68
+pie,0.0,0.0,13.3,76.7,30

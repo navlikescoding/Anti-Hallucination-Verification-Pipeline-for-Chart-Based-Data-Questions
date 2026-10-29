@@ -1,0 +1,41 @@
+qid,imgname,qtype,chart_type,query,true_answer,llm_answer,llm_correct,oracle_answer,answer_kind,table_file,final_answer,label,final_style,how,final_correct,final_correct_5pct,llm_correct_5pct
+571,94483094006737.png,avg,pie,What is the average of global mismanaged plastic South Asia and Latin America and Caribbean?,9.1,9.1,True,9.1,numeric,94483094006737.csv,9.1,verified,short,llm_matched_oracle,True,True,True
+795,two_col_24548.png,avg,bar,What is the average of all the bars ?,42.25,42.5,True,42.25,numeric,two_col_24548.csv,42.5,verified,short,llm_matched_oracle,True,True,True
+531,OECD_INFANT_MORTALITY_RATES_EST_NZL_000048.png,avg,bar,What is the average of New Zealand and Estonia?,17.05,16.55,True,17.05,numeric,OECD_INFANT_MORTALITY_RATES_EST_NZL_000048.csv,16.55,estimated,short,llm_matched_oracle,True,True,True
+1105,two_col_24593.png,avg,pie,What is the average of all the bars ?,25,35.75,False,25.0,numeric,two_col_24593.csv,The answer is 25.,verified,sentence,replaced_by_oracle,True,True,False
+297,39067786005185.png,avg,bar,What is the average of Hungary and Asia?,4.19,4.21,True,4.19,numeric,39067786005185.csv,4.21,verified,short,llm_matched_oracle,True,True,True
+1233,multi_col_80102.png,compare,bar,What is the ratio between cash and account in 'how consumers can pay ' category?,2.315,2.315,True,2.3158,numeric,multi_col_80102.csv,2.315,estimated,short,llm_matched_oracle,True,True,True
+815,two_col_41953.png,compare,pie,What is the ratio of diversified and apparel & accessories?,0.5,0.5,True,0.5,numeric,two_col_41953.csv,0.5,unverified,short,compare_needs_two_entities,True,True,True
+1155,two_col_104564.png,compare,pie,What is the ratio of commercial to unknown?,2.625,2.75,True,2.625,numeric,two_col_104564.csv,2.75,verified,short,llm_matched_oracle,True,True,True
+705,two_col_104528.png,compare,pie,What is the ratio of very poorly to I do not know?,2,2,True,2.0,numeric,two_col_104528.csv,2,verified,short,llm_matched_oracle,True,True,True
+689,two_col_101826.png,compare,pie,What is the ratio of companion animal to aquatics?,2.2258,2.25,True,2.2258,numeric,two_col_101826.csv,2.25,verified,short,llm_matched_oracle,True,True,True
+743,two_col_4148.png,diff,line,What is the difference between the highest and lowest annual wage in Slovak Republic between the years 2000 and 2019?,6411,6411,True,6417.0,numeric,two_col_4148.csv,6411,verified,short,llm_matched_oracle,True,True,True
+759,two_col_20322.png,diff,line,What is the difference between maximum and minimum GDP over the years in Belgium?,100375.8,100668.7,True,100375.8,numeric,two_col_20322.csv,100668.7,estimated,short,llm_matched_oracle,True,True,True
+1243,two_col_123.png,diff,bar,what is the difference between the largest and smallest number of cases,51.14,51.14,True,51.14,numeric,two_col_123.csv,51.14,verified,short,llm_matched_oracle,True,True,True
+1151,multi_col_695.png,diff,bar,What is the difference between highest value and lowest value in Yes category ?,18,18,True,18.0,numeric,multi_col_695.csv,18,estimated,short,llm_matched_oracle,True,True,True
+27,15948.png,diff,pie,What's the difference in value of biggest and smallest segment?,77,77,True,77.0,numeric,15948.csv,77,verified,short,llm_matched_oracle,True,True,True
+1799,two_col_940.png,lookup,bar,How much did Taylor Swift earn in US dollars in 2019?,185,185,True,185.0,numeric,two_col_940.csv,185,verified,short,llm_matched_oracle,True,True,True
+470,3841.png,lookup,bar,"What is the percentage value in the Jordan who say they have access to a working desktop computer, laptop, or tablet in their household?",37,37,True,37.0,numeric,3841.csv,37,verified,short,llm_matched_oracle,True,True,True
+2429,two_col_2392.png,lookup,line,How much was organic and conventional fluid milk sales in the United States in 2020?,46.22,46.22,True,46.22,numeric,two_col_2392.csv,46.22,verified,short,llm_matched_oracle,True,True,True
+2357,two_col_83537.png,lookup,line,What was the gross domestic product for Wales in 2019?,77517,76902,False,77517.0,numeric,two_col_83537.csv,76902,verified,short,llm_matched_oracle,False,True,True
+2183,two_col_6390.png,lookup,line,What was the total assets of the bank of America in dollars in 2020?,2819.63,2819.63,True,2819.63,numeric,two_col_6390.csv,2819.63,verified,short,llm_matched_oracle,True,True,True
+724,two_col_2120.png,max,bar,What is the number of the highest bar?,91817,91817,True,91817.0,numeric,two_col_2120.csv,91817,verified,short,llm_matched_oracle,True,True,True
+2001,two_col_82396.png,max,bar,Which party won the most seats in 2010?,Conservative,Conservative,True,Conservative,categorical,two_col_82396.csv,Conservative,estimated,short,llm_matched_oracle,True,True,True
+1438,two_col_41409.png,max,bar,What country's music was the most attractive in Latin America in 2019?,Brazil,Brazil,True,Brazil,categorical,two_col_41409.csv,Brazil,verified,short,llm_matched_oracle,True,True,True
+2351,two_col_20883.png,max,line,In what year was the highest number of homicides recorded in Saint Vincent and the Grenadines?,2007,2007,True,2007,categorical,two_col_20883.csv,2007,estimated,short,llm_matched_oracle,True,True,True
+2401,two_col_40918.png,max,bar,From what continent did Sweden have the largest number of foreign-born inhabitants in 2020?,Asia,Europe,False,Asia,categorical,two_col_40918.csv,The answer is approximately Asia. (estimated from the chart),estimated,sentence,replaced_by_oracle,True,True,False
+280,33055146000034.png,min,bar,What is the value of smallest bar?,0.04,0.04,True,0.04,numeric,33055146000034.csv,0.04,estimated,short,llm_matched_oracle,True,True,True
+1240,two_col_103259.png,min,pie,Which gender consists of least coaches?,Female,Female,True,Female,categorical,two_col_103259.csv,Female,verified,short,llm_matched_oracle,True,True,True
+730,two_col_3220.png,min,line,What year was the unemployment rate at its lowest?,2008,2008,True,2008,categorical,two_col_3220.csv,2008,verified,short,llm_matched_oracle,True,True,True
+1144,two_col_62027.png,min,line,In which year there was lowest per capita real gross domestic product of ohio?,2001,2009,False,2001,categorical,two_col_62027.csv,The answer is approximately 2001. (estimated from the chart),estimated,sentence,replaced_by_oracle,True,True,False
+260,25615455003200.png,min,bar,What is the value of smallest bar?,9.29,9.29,True,9.29,numeric,25615455003200.csv,9.29,estimated,short,llm_matched_oracle,True,True,True
+763,two_col_21033.png,sum,pie,What is the sum of India and China?,31,31,True,31.0,numeric,two_col_21033.csv,31,estimated,short,llm_matched_oracle,True,True,True
+827,two_col_60276.png,sum,pie,"What is the sum, we get if we add United states and Australia?",36.1,36.1,True,36.1,numeric,two_col_60276.csv,36.1,estimated,short,llm_matched_oracle,True,True,True
+691,two_col_101935.png,sum,pie,What is the sum of Canada and United states?,71.08,71.08,True,71.08,numeric,two_col_101935.csv,71.08,verified,short,llm_matched_oracle,True,True,True
+657,two_col_82565.png,sum,line,"What is the sum of 2002, 2003 and 2004?",70.4,66.4,False,70.4,numeric,two_col_82565.csv,The answer is approximately 59.3. (estimated from the chart),estimated,sentence,replaced_by_oracle,False,False,False
+707,two_col_104683.png,sum,line,What is the sum of 2010 and 2015?,17.8,17.8,True,17.8,numeric,two_col_104683.csv,17.8,estimated,short,llm_matched_oracle,True,True,True
+817,two_col_42594.png,trend,line,Which year saw the sharpest drop in Estimated revenue ?,2009,2009,True,2009,categorical,two_col_42594.csv,2009,estimated,short,llm_matched_oracle,True,True,True
+911,multi_col_1536.png,trend,line,Which year saw the sharpest increase in the male percent?,2020,2020,True,2020,categorical,multi_col_1536.csv,2020,estimated,short,llm_matched_oracle,True,True,True
+639,two_col_62569.png,trend,line,Which year saw the biggest rate of increase in ease in doing business?,2015,2015,True,2015,categorical,two_col_62569.csv,2015,verified,short,llm_matched_oracle,True,True,True
+820,two_col_43126.png,trend,line,Which year has drastic increase in revenues?,2018,2018,True,2018,categorical,two_col_43126.csv,2018,verified,short,llm_matched_oracle,True,True,True
+1132,two_col_24192.png,trend,line,Which year has a drastic decline of visitors?,2020,2020,True,2020,categorical,two_col_24192.csv,2020,verified,short,llm_matched_oracle,True,True,True

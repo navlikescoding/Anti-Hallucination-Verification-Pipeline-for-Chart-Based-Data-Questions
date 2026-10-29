@@ -1,0 +1,9 @@
+qtype,Llama 3.2 3B · short,Llama 3.2 3B · sentence,Gemini Flash-Lite · short,Gemini Flash-Lite · sentence,n_questions
+diff,86.7,55.6,4.4,4.4,45
+avg,83.3,50.0,0.0,0.0,12
+min,68.2,36.4,4.5,4.5,22
+compare,64.3,14.3,0.0,0.0,14
+max,60.0,13.3,6.7,0.0,45
+sum,58.3,8.3,0.0,0.0,12
+trend,40.0,60.0,0.0,0.0,5
+lookup,20.0,22.2,0.0,0.0,45

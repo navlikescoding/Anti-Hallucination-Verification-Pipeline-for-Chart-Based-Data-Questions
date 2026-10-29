@@ -1,0 +1,3 @@
+model,charts,parsed_%,label_recall_%,cell_accuracy_%
+gemma3-4b,40.0,97.5,95.9,65.3
+qwen2.5vl-3b,40.0,100.0,98.4,96.6

@@ -1,0 +1,8 @@
+,0
+labelled_rows,120.0
+precision,0.983
+recall,1.0
+F1,0.992
+false_positive_rate,0.005
+false_negative_rate,0.0
+residual_hallucination_after_%,0.0

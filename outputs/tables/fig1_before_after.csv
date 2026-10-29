@@ -1,0 +1,5 @@
+group,before_%,after_estimate_%,after_upper95_%,answers
+Llama 3.2 3B · short,59.0,0.0,2.0,200
+Llama 3.2 3B · sentence,30.5,0.0,3.38,200
+Gemini Flash-Lite · short,3.0,0.0,4.72,200
+Gemini Flash-Lite · sentence,1.5,0.0,4.8,200

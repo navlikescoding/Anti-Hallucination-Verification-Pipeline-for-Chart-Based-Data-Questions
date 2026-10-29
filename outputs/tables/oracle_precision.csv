@@ -1,0 +1,9 @@
+qtype,answered,correct,precision_%
+avg,13,12,92.3
+compare,17,14,82.4
+diff,50,48,96.0
+lookup,824,800,97.1
+max,146,121,82.9
+min,25,22,88.0
+sum,13,12,92.3
+trend,6,5,83.3
