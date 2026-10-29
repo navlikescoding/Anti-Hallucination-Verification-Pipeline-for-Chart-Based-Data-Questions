@@ -39,3 +39,16 @@ cross-check · `features.py` classifier features
   the 03b parser was refined on its 40 charts (development results).
 - The "after" hallucination rate comes from a 120-answer human audit (95% upper bound reported).
 - Two text LLMs, two small vision models, 200 questions from one dataset.
+
+## Paper
+[Final_Paper.pdf](Final_Paper.pdf): *A Data-Grounded Verification Framework for Reducing LLM Hallucination in Accessible Chart-Based Question Answering*. Navaneeth and Srihari V, VIT Chennai.
+
+**Key results:** verifier precision 0.983 and recall 1.000 (human audit); Llama 3.2 3B hallucinated answers reaching the user reduced from 59.0% to at most 2.0%.
+
+## Data
+The ChartQA test data is not included; notebook 01 downloads it automatically from the [official ChartQA repository](https://github.com/vis-nlp/ChartQA).
+
+## Outputs
+- `outputs/`: main datasets (sampled questions, LLM answers, verification results, image pipeline, classifier predictions)
+- `outputs/tables/`: summary tables and the human audit sheets
+- `outputs/figures/`: all figures used in the paper
